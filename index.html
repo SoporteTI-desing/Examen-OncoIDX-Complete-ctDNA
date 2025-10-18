@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo México 2025</title>
+  <meta name="description" content="Catálogo México 2025 - versión web" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/img/logo.svg" alt="Logo" class="logo" onerror="this.style.display='none'">
+      <div class="titles">
+        <h1>Catálogo México 2025</h1>
+        <p class="subtitle">Versión web (visualizador PDF responsivo)</p>
+      </div>
+    </div>
+    <nav class="actions">
+      <a class="btn" href="assets/pdf/catalogo-mexico-2025.pdf" target="_blank" rel="noopener">Abrir en pestaña</a>
+      <a class="btn primary" href="assets/pdf/catalogo-mexico-2025.pdf" download>Descargar PDF</a>
+    </nav>
+  </header>
+
+  <main class="viewer">
+    <div class="viewer-wrapper">
+      <iframe
+        class="pdf-frame"
+        title="Catálogo México 2025"
+        src="assets/pdf/catalogo-mexico-2025.pdf#view=FitH&zoom=page-width&pagemode=none"
+      ></iframe>
+    </div>
+
+    <section class="help">
+      <h2>¿No se carga el PDF?</h2>
+      <p>Algunos navegadores bloquean los visores PDF embebidos. Usa los botones de arriba para abrir o descargar el documento.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025. Catálogo México. Versión web estática.</small>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
